@@ -18,7 +18,7 @@ void highlight_path(const std:: vector<std::string>&grid, const std::vector<std:
             std::vector<Element> row;
             for (int c = 0; c < cols; c++) {
                 row.push_back(
-                    text(std::string(1, grid[r][c])) | bgcolor(grid_colors[r][c]) | border
+                    text(std::string(1, grid[r][c])) | border | color(grid_colors[r][c]) 
                 );
             }
             matrix.push_back(row);
@@ -75,3 +75,12 @@ void show_grid(const std::vector<std::string>&grid){
 
 }
 
+
+// MCEMRE
+// BLRATU
+// ASTUTB
+// OIERLT
+// MSVIOI
+// ALMZNO
+// RULERS
+// SEYLEJ
