@@ -1,0 +1,67 @@
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.la
+*.lai
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Build directories
+/build/
+build/
+out/
+bin/
+lib/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# Logs
+*.log
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Mac OS
+.DS_Store
+
+# Dependencies (if downloaded/compiled locally by CMake FetchContent)
+_deps/
